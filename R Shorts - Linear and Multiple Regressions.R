@@ -14,9 +14,3 @@ summary(penguins.linear.regression)
 
 penguins.multiple.regression <- lm(flipper_length_mm ~  bill_depth_mm + bill_length_mm, data = penguins)
 summary(penguins.multiple.regression)
-
-
-
-penguins.multiple.regression2 <- lm(flipper_length_mm ~  bill_depth_mm + bill_length_mm + species, data = penguins)
-summary(penguins.multiple.regression2)
-
